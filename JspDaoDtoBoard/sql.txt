@@ -16,3 +16,8 @@ delete from ps_board_free where b_no=1;
 update ps_board_free set b_title='bb',b_text='bbbb' where b_no=4;
 select * from ps_board_free where b_no=2;
 desc ps_board_free;
+
+#게시판에 카테고리 칼럼 추가함
+ALTER TABLE PS_BOARD_FREE ADD B_CATEGORY CHAR(50);    
+UPDATE PS_BOARD_FREE SET B_CATEGORY = "free";
+

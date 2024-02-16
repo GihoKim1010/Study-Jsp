@@ -11,9 +11,6 @@ public class Db {
 	static public String DB_ID = "root";
 	static public String DB_PW = "root";
 	
-	/* table들 */
-	////	게시판
-	public static final String TABLE_PS_BOARD_FREE = "PS_BOARD_FREE";	//자유게시판
 	
 	////	FantasyTrip
 //	public static final String TABLE_PLAYER = "FT_INS_PLAYER";
